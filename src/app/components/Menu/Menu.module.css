@@ -1,0 +1,16 @@
+.menu {
+    align-content: center;
+    font-size : large;
+    display: flex;
+    gap: 12px;
+    padding: 12px;
+    
+}
+
+.menuItems {
+    font-size: medium;
+    align-content: center;
+    align-items: end;
+    display: flex;
+    gap: 12px;
+}

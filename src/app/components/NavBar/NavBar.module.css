@@ -1,0 +1,7 @@
+.ul {
+    display: flex;
+    color: cadetblue;
+    background-color: black;
+    gap: 12px;
+    padding: 12px;
+}
