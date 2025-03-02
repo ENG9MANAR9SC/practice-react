@@ -3,10 +3,16 @@ import Menu from "./components/Menu/Menu";
 import NavBar from "./components/NavBar/NavBar";
 import Footer from "./components/Footer/Footer";
 import { OurProducts, ProductsTable } from "./components/Products/ProductsTable";
+import SearchField from "./components/SearchField/SearchField";
+
 export default function Home() {
   const myStyle = {
     width:'100%',
   };
+
+  const handleSearch = (searchTerm:string) => {
+    console.log('dsd', searchTerm);
+  }
 
   return (
     <div className="grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20 font-[family-name:var(--font-geist-sans)]">
@@ -17,6 +23,7 @@ export default function Home() {
         </div>
       </header>
       <main className="flex flex-col gap-8 row-start-2 items-center sm:items-start">
+        <SearchField onSearch={handleSearch}/>
         <ProductsTable OurProducts={OurProducts}/>
         <Image
           className="dark:invert"
