@@ -1,8 +1,8 @@
 import Image from "next/image";
-import Button from "./components/Button/Button";
 import Menu from "./components/Menu/Menu";
 import NavBar from "./components/NavBar/NavBar";
 import Footer from "./components/Footer/Footer";
+import { OurProducts, ProductsTable } from "./components/Products/ProductsTable";
 export default function Home() {
   const myStyle = {
     width:'100%',
@@ -17,6 +17,7 @@ export default function Home() {
         </div>
       </header>
       <main className="flex flex-col gap-8 row-start-2 items-center sm:items-start">
+        <ProductsTable OurProducts={OurProducts}/>
         <Image
           className="dark:invert"
           src="/next.svg"
