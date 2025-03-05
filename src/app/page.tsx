@@ -18,7 +18,7 @@ export default function Home() {
   }
 
   return (
-    <div className={`font-[family-name:var(--font-geist-sans)] h-screen`} style={mainStyle}>
+    <div className={`font-[family-name:var(--font-geist-sans)] h-screen bg-sky-50`} style={mainStyle}>
       <header style={myStyle}>
         <div className="flex-row">
           <Menu/>
@@ -31,7 +31,6 @@ export default function Home() {
         </div>
         
         <Image
-          className="dark:invert"
           src="/next.svg"
           alt="Next.js logo"
           width={180}
