@@ -2,8 +2,6 @@
     align-content: center;
     font-size : large;
     display: flex;
-    gap: 12px;
-    padding: 12px;
     
 }
 
@@ -12,5 +10,11 @@
     align-content: center;
     align-items: end;
     display: flex;
-    gap: 12px;
+    gap:24px;
+    cursor: pointer;
+}
+
+.menuItems>li:hover {
+    font-weight: 600;
+    transition: .4s;
 }

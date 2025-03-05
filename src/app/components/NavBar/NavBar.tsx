@@ -1,11 +1,16 @@
 import styles from "./NavBar.module.css";
 
 function NavBar() {
-    return  <div>
-                <ul className={styles.ul}>
-                    <li>Link 1</li>
-                    <li>Link 2</li>
-                </ul>
+    return  <div className={`${styles.nav} flex justify-between text-sky-200`}>
+                <a className="font-bold">
+                    Company Profile
+                </a>
+                <ul className={`flex gap-18 cursor-pointer`}>
+                    <li>Facebook</li>
+                    <li>LinkedIn</li>
+                    <li>Twitter</li>
+                    <li>Instagram</li>
+                </ul> 
             </div>
 
 }
