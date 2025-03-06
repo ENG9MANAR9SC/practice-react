@@ -2,6 +2,13 @@ import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 
+// componenets
+import Footer     from  "./components/Footer/Footer";
+import Menu       from  "./components/Menu/Menu";
+import NavBar     from  "./components/NavBar/NavBar";
+import BreadCrumb from  "./components/BreadCrumb/BreadCrumb";
+// end components
+
 const geistSans = Geist({
   variable: "--font-geist-sans",
   subsets: ["latin"],
@@ -24,11 +31,19 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+      <header>
+        <div className="flex-row">
+          <Menu/>
+          <NavBar/>
+          <BreadCrumb/>
+        </div>
+      </header>
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
         {children}
       </body>
+      <Footer/>
     </html>
   );
 }
