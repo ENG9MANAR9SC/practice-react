@@ -26,31 +26,31 @@ function jobs () {
         </div>
       </div>
       <h3 className="mb-6 font-bold text-3xl">Why choose us ?</h3>
-      <div className="flex gap-4 m-2 justify-center">
+      <div className="flex gap-4 m-2 justify-between">
         <div>
           <h4 className="text-4xl font-bold">01</h4>
           <div className="bg-sky-500 h-3 w-1/3 rounded-r-lg mx-3 py-2 my-2"></div>
-          <p className="px-6 ">Flexiple Work</p>
+          <p className="px-6 text-2xl">Flexiple Work</p>
         </div>
         <div>
           <h4 className="text-4xl font-bold">02</h4>
           <div className="bg-sky-500 h-3 w-1/3 rounded-r-lg mx-3 py-2 my-2"></div>
-          <p className="px-6 ">Flexiple Hours</p>
+          <p className="px-6 text-2xl">Flexiple Hours</p>
         </div> 
         <div>
           <h4 className="text-4xl font-bold">03</h4>
           <div className="bg-sky-500 h-3 w-1/3 rounded-r-lg mx-3 py-2 my-2"></div>
-          <p className="px-6 ">Hyprid Work</p>
+          <p className="px-6 text-2xl">Hyprid Work</p>
         </div>
         <div>
           <h4 className="text-4xl font-bold">04</h4>
           <div className="bg-sky-500 h-3 w-1/3 rounded-r-lg mx-3 py-2 my-2"></div>
-          <p className="px-6 ">Hyprid Work</p>
+          <p className="px-6 text-2xl">Hyprid Work</p>
         </div>
         <div>
           <h4 className="text-4xl font-bold">05</h4>
           <div className="bg-sky-500 h-3 w-1/3 rounded-r-lg mx-3 py-2 my-2"></div>
-          <p className="px-6 ">Hyprid Work</p>
+          <p className="px-6 text-2xl">Hyprid Work</p>
         </div>
       </div>
     </div>
