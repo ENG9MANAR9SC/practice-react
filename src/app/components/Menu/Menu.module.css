@@ -6,6 +6,7 @@
 }
 
 .menuItems {
+    font-weight: 500;
     font-size: medium;
     align-content: center;
     align-items: end;
