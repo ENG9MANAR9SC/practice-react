@@ -1,7 +1,7 @@
 import styles from "./NavBar.module.css";
 
 function NavBar() {
-    return  <div className={`${styles.nav} flex justify-between text-sky-200`}>
+    return  <div className={`${styles.nav} flex justify-between text-sky-100 bg-sky-900`}>
                 <a className="font-bold">
                     Company Profile
                 </a>
