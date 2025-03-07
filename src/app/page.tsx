@@ -9,17 +9,23 @@ export default function Home() {
   const mainStyle = {
     height:'100vh',
   }
-
+  const imageStyle = {
+    background: 'linear-gradient(rgba(7, 25, 53, 0.2), rgba(8, 17, 109, 0.2)), url(./hero2.jpg)',
+    backgroundRepeat: 'no-repeat',
+    backgroundSize: 'cover',
+    backgroundPosition: 'center center',
+    backgroundAttachment: 'fixed',
+  };
   const handleSearch = (searchTerm:string) => {
     console.log('dsd', searchTerm);
   }
 
   return (
-    <div className={`font-[family-name:var(--font-geist-sans)] bg-sky-50 text-sky-900 min-height-100`} style={mainStyle}>
+    <div className={`font-[family-name:var(--font-geist-sans)] bg-sky-50 relative text-sky-900 min-height-100`} style={mainStyle}>
  
       <main className="flex flex-col gap-8 row-start-2 items-center sm:items-start" >
 
-        <div className="justify-items-center my-6">
+        <div style={imageStyle} className="justify-items-center content-evenly my-6 h-[550px]">
           <h3 className="pb-2 font-bold text-4xl">New Forest Ice Cream</h3>
           <p className="pb-2 text-2xl w-1/2">We’ve been whipping up smiles since 1983 with our award-winning, nut-free ice cream, sorbets and desserts. 
             Both real dairy ice cream and plant-based treats, and everything in between. Because we’re making the world a cooler place.

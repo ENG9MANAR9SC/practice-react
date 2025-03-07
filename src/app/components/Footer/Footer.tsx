@@ -1,7 +1,7 @@
 import Image from "next/image"
 
 function Footer() {
-    return <footer className="flex gap-6 justify-between absolute bottom-2 w-full p-2 text-sky-800">
+    return <footer className="flex gap-6 justify-between absolute fixed bg-sky-200/30 bg-blend-soft-light backdrop-blur-xs bottom-0 left-0 w-full p-2 text-sky-800">
                 <div className="flex">
                     <a
                         className="flex items-center gap-2 hover:underline hover:underline-offset-4"
